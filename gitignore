@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Django (for Part II projects)
+*.sqlite3
+local_settings.py
+db.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (keep .csv/.json in repo if small)
+*.log
