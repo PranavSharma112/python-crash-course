@@ -55,3 +55,24 @@ print(name.strip())
 
 filename = 'python_notes.txt'
 print(filename.removesuffix('.txt'))
+
+# 2.9 Number Eight: Write addition, subtration, multiplication and division operations that each result in the number 8.
+# Be sure to enclose your operations in print() calls to see results. You should create four lines that look like this:
+# Your output should be 4 lines, with the number 8 appearing once on each line.
+
+print(5+3)
+print(12-4)
+print(48//6) # double slash removes .0 
+print(2*4)
+
+# 2.10 Favorite Number: Use a variable to represent your favorite number. Then, using that variable,
+#  create a message that reveals yout favourite number. Print that message.
+favno = 3
+print(f"{favno} is the Number I like.")
+
+# 2.11 Adding additonal comments: 19th-June-2026, Friday @ 11 A.M
+# 2.12 Zen of Python: skim through the directives.
+
+import this 
+
+
