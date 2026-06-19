@@ -32,3 +32,26 @@ Quote = "Become indifferent to what makes no difference"
 
 print(f'{NameOfFamousPerson} once said, "{Quote}"')
 
+# 2.6 Famous Quote 2: Repeat Excercise 2.5, but this time, represent the famous person's
+# name using a variable called famous_person. Then compose your message and represent it 
+# with a new a new variable called message . Print that message .
+
+# Solved above
+
+# 2.7 Stripping Names use a variable  to represent a person's name, and include 
+# some whitespace characters at the beginning and end of the name /
+# Make Sure you use each characters at the beginning and end of the name 
+#       Print the name once, so the whitespace around the name is displayed. 
+# then print the name using each of the three stripping functions, lstrip(), rstrip(), strip()
+name = "  James  "
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
+
+# 2.8 Fil Extensions: Python has a removesuffix() metod that works exactly like removepreffix(),
+# Assign the value 'python_notes.txt' to a variable called filename.
+# the use the removesuffix() method to display the filename without the file extension, like some file browsers do.
+
+filename = 'python_notes.txt'
+print(filename.removesuffix('.txt'))
