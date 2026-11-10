@@ -83,4 +83,41 @@ user = 'marie'
 print("\nIs user not in banned_users? I predict True.")
 print(user not in banned_users)
 
-#7. 
+# 5.3 Alien Colors #1:
+print("\n # 5.3")
+import random
+alien_color = ['green', 'yellow', 'red']
+z = random.choice(alien_color)
+if 'green' in z:
+    print("+5 points")
+elif 'yellow' in z:
+    print('+ 10 points')
+elif 'red' in z:
+    print('+ 15 points')
+elif 'brown' in z:
+    print('+ 0 points')
+else:
+    print('no points for you!')
+
+
+# 5.6 stages of life
+print("\n#5.6")
+
+r = [1,2,4,7,17,39,67,156,20000]
+n = random.choice(r)
+if n<2:
+    print("baby")
+elif n>=2 and n<4:
+    print("toddler")
+elif n>=4 and n<13:
+    print("kid")
+elif n>=13 and n<20:
+    print("teenager")
+elif n>=20 and n<65:
+    print("adult")
+elif n>=65 and n<=160:
+    print("elder")
+else:
+    print("Liar!")
+
+
