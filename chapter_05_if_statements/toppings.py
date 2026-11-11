@@ -1,7 +1,7 @@
-# # available_toppings = ['mushrooms','olives','green peppers',
-# #                       'pepperoni', 'pinepple', 'extra cheese']
+available_toppings = ['mushrooms','olives','green peppers',
+                      'pepperoni', 'pinepple', 'extra cheese']
 
-# requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
 
 # if 'mushrooms' in requested_toppings:
@@ -14,18 +14,17 @@
 # print("\nFinished making your pizza")
 
 
-# # for requested_topping in requested_toppings:
-# #     if requested_topping in available_toppings:
-# #         print(f'Adding {requested_topping}.')
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+         print(f'Adding {requested_topping}.')
 
-# #     else:
-# #         print(f"Sorry, we don't have {requested_topping}.")
-
-# # print("\nFinished making your pizza!")
-
+    else:
+         print(f"Sorry, we don't have {requested_topping}.")
+print("\nFinished making your pizza!")
 
 
 
+    
 
 ### CHECKING THAT A LIST IS NOT EMPTY
 requested_toppings = []
