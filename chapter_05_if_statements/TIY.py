@@ -109,6 +109,7 @@ if n<2:
     print("baby")
 elif n>=2 and n<4:
     print("toddler")
+    print("toddler")
 elif n>=4 and n<13:
     print("kid")
 elif n>=13 and n<20:
@@ -119,5 +120,24 @@ elif n>=65 and n<=160:
     print("elder")
 else:
     print("Liar!")
+
+# 5.7
+print("\n# 5.7")
+favoutite_fruits = ["Kiwi","Mango","Lichi"]
+
+f = random.choice(favoutite_fruits)
+
+if f == 'Apple':
+    print("Apple is your favourite fruit!")
+elif f == 'Blueberry':
+    print("Blueberry is your favourite fruit!")
+elif f == 'Kiwi':
+    print("Kiwi is your favourite fruit!")
+elif f == 'Mango':
+    print("Mango is your favourite fruit!")
+elif f == 'Lichi':
+    print("Lichi is your favourite fruit!")
+else:
+    print("Looks like you don't like fruits!")
 
 
